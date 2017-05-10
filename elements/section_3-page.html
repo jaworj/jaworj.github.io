@@ -1,0 +1,47 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+
+<dom-module id="section_3-page">
+	<style is="custom-style">
+	.page{
+		height: 100vh;
+		background-color: #81C784;
+		background: url("coe.jpg") center/cover no-repeat;
+	    font-family: 'Roboto', 'Noto', sans-serif;
+	    padding: 0;
+	    font-size: 24px;
+	    font-weight: 700;
+	  	text-transform: uppercase;
+	    color: white;
+	    @apply(--layout-center-center);
+  		@apply(--layout-vertical);
+  	}
+		.page-content{
+			background-color: black;
+			width: 100%;
+		}
+	</style>
+
+	<template>
+
+		<section class="page">
+
+           <div class="page-content">
+      			<h1>so you are <span style="color:dodgerblue">interested?</span> show us your skillz</h1>
+						As most of you have no idea about <span style="color:darkorange">programming</span> we would like to test your <span style="color:dodgerblue">skillz</span> before start spending money. <br>
+								  Go on and try to solve our <span style="color:darkorange">practical task</span> - <a style="color:dodgerblue" href="https://www.stepstoneservices.pl/">challange accepted!</a>
+
+			</div>
+
+      	</section>
+
+	</template>
+
+</dom-module>
+
+<script>
+
+    Polymer({
+      is: 'section_3-page'
+    });
+
+</script>

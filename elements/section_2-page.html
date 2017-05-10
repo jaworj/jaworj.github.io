@@ -1,0 +1,48 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+
+<dom-module id="section_2-page">
+
+	<style is="custom-style">
+	.page{
+		height: 100vh;
+		background-color: #4EB6AC;
+		background: url("65.jpg") center/cover no-repeat;
+	    font-family: 'Roboto', 'Noto', sans-serif;
+	    padding: 0;
+	    font-size: 24px;
+	    font-weight: 700;
+	  	text-transform: uppercase;
+	    color: white;
+	    @apply(--layout-center-center);
+  		@apply(--layout-vertical);
+  	}
+		.page-content{
+			background-color: black;
+			width: 100%;
+		}
+	</style>
+
+	<template>
+
+		<section class="page">
+
+            <div class="page-content">
+						Our office is located in <span style="color:limegreen">mordor</span>, Warsaw, Domaniewska 50 <br>
+						Desgined and decorated in a <span style="color:limegreen">Star Wars style</span>.
+						Go on, take a tour and try out <span style="color:limegreen">Virtual trip</span> to the office  <a style="color:limegreen" href="goo.gl/LovjEb">office trip</a>
+
+			</div>
+
+      	</section>
+
+	</template>
+
+</dom-module>
+
+<script>
+
+    Polymer({
+      is: 'section_2-page'
+    });
+
+</script>

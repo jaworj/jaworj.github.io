@@ -1,0 +1,46 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+
+<dom-module id="section_1-page">
+
+	<style is="custom-style">
+	.page{
+		height: 100vh;
+		background-color: #4DD0E1;
+		background: url("15.jpg") center/cover no-repeat;
+	    font-family: 'Roboto', 'Noto', sans-serif;
+	    padding: 0;
+	    font-size: 24px;
+	    font-weight: 700;
+	  	text-transform: uppercase;
+	    color: white;
+	    @apply(--layout-center-center);
+  		@apply(--layout-vertical);
+  	}
+	.page-content{
+		background-color: black;
+	}
+	</style>
+
+	<template>
+
+		<section class="page">
+
+           <div class="page-content">
+      			Founded in 1996, StepStone is one of the most successful online <span style="color:deeppink">job boards</span> in Europe today. With over <span style="color:deeppink">24,9 million visits</span> and more than 290.000 job listings each month, we operate some of the most powerful online <span style="color:deeppink">job portals</span> in the European market. All the software that runs our websites is <span style="color:deeppink">developed in-house</span>.
+We work in <span style="color:deeppink">Scrum</span>. We are constantly developing;<br> we enjoy challenges and have <span style="color:deeppink">fun</span>.
+
+			</div>
+
+      	</section>
+
+	</template>
+
+</dom-module>
+
+<script>
+
+    Polymer({
+      is: 'section_1-page'
+    });
+
+</script>
